@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+  <ExtensionPackages>
+    <ExtensionPackage 
+      name="MSOfficeResource"
+      packageVersion="1.1.2"
+      vendor="Accenture Italy - Industry X"
+      description="Extension to manage MSOffice files"
+      minimumThingWorxVersion="8.3.0"
+      dependsOn="">
+    
+      <JarResources>
+        <FileResource description="" file="msofficeresource.jar" type="JAR"/>
+        <!--<FileResource description="" file="commons-collections4-4.1.jar" type="JAR"/>-->
+        <FileResource description="" file="poi-3.17.jar" type="JAR"/>
+        <FileResource description="" file="poi-ooxml-3.17.jar" type="JAR"/>
+        <FileResource description="" file="poi-ooxml-schemas-3.17.jar" type="JAR"/>
+        <FileResource description="" file="xmlbeans-2.6.0.jar" type="JAR"/>
+      </JarResources>
+    </ExtensionPackage>
+  </ExtensionPackages>
+  
+  <Resources>
+    <Resource aspect.isCreatable="false" aspect.isEditableExtensionObject="false" className="com.accenture.msoffice.MSOfficeResource" description="" name="MSOfficeResource"/>
+  </Resources>
+</Entities>
