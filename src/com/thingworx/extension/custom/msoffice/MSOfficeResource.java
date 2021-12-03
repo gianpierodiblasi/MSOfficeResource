@@ -1,4 +1,4 @@
-package com.accenture.msoffice;
+package com.thingworx.extension.custom.msoffice;
 
 import com.thingworx.data.util.InfoTableInstanceFactory;
 import com.thingworx.entities.utils.ThingUtilities;

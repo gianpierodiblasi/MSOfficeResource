@@ -21,6 +21,6 @@
   </ExtensionPackages>
   
   <Resources>
-    <Resource aspect.isCreatable="false" aspect.isEditableExtensionObject="false" className="com.accenture.msoffice.MSOfficeResource" description="" name="MSOfficeResource"/>
+    <Resource aspect.isCreatable="false" aspect.isEditableExtensionObject="false" className="com.thingworx.extension.custom.msoffice.MSOfficeResource" description="" name="MSOfficeResource"/>
   </Resources>
 </Entities>
