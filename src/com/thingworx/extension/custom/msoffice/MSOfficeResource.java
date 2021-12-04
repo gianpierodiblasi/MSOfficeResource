@@ -35,7 +35,7 @@ public class MSOfficeResource extends Resource {
           @ThingworxServiceParameter(name = "sheetIndex", description = "the index of the sheet, default = 0", baseType = "INTEGER") Integer sheetIndex,
           @ThingworxServiceParameter(name = "hasHeader", description = "true if the sheet has an header, false otherwise, default = false", baseType = "BOOLEAN") Boolean hasHeader,
           @ThingworxServiceParameter(name = "dataShape", description = "the output DataShape", baseType = "DATASHAPENAME", aspects = {"isRequired:true"}) String dataShape) throws Exception {
-    SCRIPT_LOGGER.info("MSOfficeResource - readExcel -> Start");
+    SCRIPT_LOGGER.debug("MSOfficeResource - readExcel -> Start");
 
     InfoTable response = InfoTableInstanceFactory.createInfoTableFromDataShape(dataShape);
     @SuppressWarnings("CollectionsToArray")
@@ -77,7 +77,7 @@ public class MSOfficeResource extends Resource {
       });
     }
 
-    SCRIPT_LOGGER.info("MSOfficeResource - readExcel -> Stop");
+    SCRIPT_LOGGER.debug("MSOfficeResource - readExcel -> Stop");
     return response;
   }
 }
