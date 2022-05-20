@@ -4,7 +4,7 @@
     <ExtensionPackage 
       name="MSOfficeResource"
       packageVersion="1.1.4"
-      vendor="Accenture Italy - Industry X"
+      vendor="Gianpiero Di Blasi"
       description="Extension to manage MSOffice files"
       minimumThingWorxVersion="8.3.0"
       haCompatible="true"
