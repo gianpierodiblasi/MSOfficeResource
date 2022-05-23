@@ -1,6 +1,8 @@
 # MSOfficeResource
 An extension to manage MSOffice files.
 
+**This Extension is provided as-is and without warranty or support. It is not part of the PTC product suite and there is no PTC support.**
+
 ## Description
 This extension adds a Resource object able to provide basic functionalities to manage MSOffice files.
 
